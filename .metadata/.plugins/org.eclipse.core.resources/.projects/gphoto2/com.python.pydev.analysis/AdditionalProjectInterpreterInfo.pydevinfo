@@ -2,12 +2,28 @@
 -- START DISKCACHE
 /Users/CHAMOMAC/Documents/Code/Cannon Gphoto2/.metadata/.plugins/org.eclipse.core.resources/.projects/gphoto2/com.python.pydev.analysis/v1_indexcache
 .v1_indexcache
+autodetect|0|/Users/CHAMOMAC/Documents/Code/Cannon Gphoto2/gphoto2/autodetect.py
+tet|0|/Users/CHAMOMAC/Documents/Code/Cannon Gphoto2/gphoto2/tet.py
 -- END DISKCACHE
 -- START DICTIONARY
-0
+1
+1=autodetect
 -- END DICTIONARY
 -- START TREE 1
-0
+13
+C|0|
+cam|0|
+det|1|detectcamera!10@
+err|0|
+exe|1|execute!10@
+get|1|get_list!10@
+glo|1|global_usb_port!11@
+gph|0|
+mau|0|
+out|0|
+p|0|
+res|1|resetusb!10@
+x|0|
 -- END TREE
 -- START TREE 2
 0

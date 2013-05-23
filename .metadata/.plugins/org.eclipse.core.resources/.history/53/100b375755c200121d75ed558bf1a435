@@ -1,0 +1,14 @@
+'''
+Created on 21/05/2013
+
+@author: CHAMOMAC
+'''
+
+import os 
+
+if __name__ == '__main__':
+    pass
+
+os.system("killall PTPCamera")
+
+os.popen('gphoto2 capture-image')

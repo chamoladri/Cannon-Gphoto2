@@ -1,0 +1,25 @@
+'''
+Created on 21/05/2013
+
+@author: CHAMOMAC
+'''
+import os
+import sys
+sys.path.append('/opt/local/bin/')
+import subprocess as sub
+
+if __name__ == '__main__':
+    pass
+
+##os.system("killall PTPCamera")
+# 
+# 
+# p = sub.Popen('sudo gphoto2 ',stdout=sub.PIPE,stderr=sub.PIPE)
+# output, errors = p.communicate()
+# print output   
+
+
+# mauro=sub.check_output(['/opt/local/bin/gphoto2','--auto-detect'])
+# print mauro
+mauro=sub.check_output(['/opt/local/bin/gphoto2'])
+print mauro

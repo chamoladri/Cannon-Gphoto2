@@ -1,0 +1,20 @@
+'''
+Created on 21/05/2013
+
+@author: CHAMOMAC
+'''
+import os
+
+import subprocess as sub
+
+if __name__ == '__main__':
+    pass
+
+##os.system("killall PTPCamera")
+# 
+# 
+# p = sub.Popen('gphoto2 --capture-image',shell=True,stdout=sub.PIPE,stderr=sub.PIPE)
+# output, errors = p.communicate()
+# print output   
+
+os.system('gphoto2 --capture-image')
